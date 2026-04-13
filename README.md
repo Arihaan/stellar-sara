@@ -18,7 +18,7 @@ An AI-powered research agent that autonomously discovers, evaluates, and **pays 
 
 ## Why This Matters
 
-Agents can reason and plan — but they still can't pay. x402 on Stellar changes that. AgentSwarm demonstrates what happens when AI agents get their own wallet and can make economic decisions: choosing which data to buy, how much to spend, and when to stop — using real stablecoin micropayments on a real blockchain.
+Agents can reason and plan — but they still can't pay. x402 on Stellar changes that. SARA demonstrates what happens when AI agents get their own wallet and can make economic decisions: choosing which data to buy, how much to spend, and when to stop — using real stablecoin micropayments on a real blockchain.
 
 ## Architecture
 
@@ -65,7 +65,7 @@ User (Browser)
 ### 1. Install Dependencies
 
 ```bash
-cd agentswarm
+cd stellar-sara
 npm install
 ```
 
@@ -135,13 +135,4 @@ All of this happens in a single `fetch()` call thanks to `wrapFetchWithPayment()
 - Currently uses xlm402.com testnet endpoints only (no mainnet spending)
 - AI chat/image services are mainnet-only on xlm402.com, so they're not included
 - Could be extended with MPP session mode for high-frequency streaming data
-- Could add agent-to-agent service registration (AgentBazaar concept)
 - Budget optimization could be improved with cost/value scoring
-
-## Built For
-
-[Stellar Hacks: Agents](https://dorahacks.io/hackathon/stellar-agents-x402-stripe-mpp/detail) — April 2026
-
-## License
-
-MIT
