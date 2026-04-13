@@ -1,4 +1,4 @@
-# SARA — Stellar Autonomous Research Agents
+# SARA — Stellar Autonomous Research Agent
 
 An AI-powered research agent that autonomously discovers, evaluates, and **pays for** data services on the Stellar blockchain using x402 micropayments — all within a user-specified USDC budget.
 
