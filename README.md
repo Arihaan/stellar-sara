@@ -2,6 +2,8 @@
 
 An AI-powered research agent that autonomously discovers, evaluates, and **pays for** data services on the Stellar blockchain using x402 micropayments — all within a user-specified USDC budget.
 
+<img width="1438" height="782" alt="Screenshot 2026-04-13 at 3 50 59 pm" src="https://github.com/user-attachments/assets/d1902ca6-a46c-433f-bc1a-e3eed8e6f09e" />
+
 ## What It Does
 
 1. **You ask a research question** (e.g., "What's happening in crypto markets today and how might global news affect Bitcoin?")
