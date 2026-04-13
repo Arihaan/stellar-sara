@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: [
+    "@stellar/stellar-sdk",
+    "@x402/stellar",
+    "@x402/fetch",
+    "@x402/core",
+  ],
 };
 
 export default nextConfig;
